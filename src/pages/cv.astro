@@ -1,0 +1,78 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro'
+import TimeLineElement from '@components/TimeLine.astro'
+---
+
+<BaseLayout title="Resume">
+	<div class="mb-5">
+		<div class="text-3xl w-full font-bold">Profile</div>
+	</div>
+
+	<div class="mb-10 text-justify">
+		Student in Software Development with 2 years + of experience from hobby
+		projects. Knowledge of various programming languages, frameworks and
+		various CMS programs. Experience in WEB design and development. Work
+		with Data Base handled systems, as well as design. Knowledge of design
+		for User Interfaces, Web sites, logos and other ones.
+	</div>
+
+	<div class="mb-5">
+		<div class="text-3xl w-full font-bold">Education</div>
+	</div>
+
+	<div class="time-line-container grid gap-4 mb-10">
+		<TimeLineElement
+			title="Lower General Secondary Education"
+			subtitle="2006 to 2009 at Markland College, Zevenbergen, Nederland"
+		/>
+		<TimeLineElement
+			title="Software Development"
+			subtitle="2022 to 2026 at Curio, Breda, Nederland"
+		/>
+	</div>
+
+	<div class="mb-5">
+		<div class="text-3xl w-full font-bold">Experience</div>
+	</div>
+
+	<div class="time-line-container mb-10">
+		<TimeLineElement
+			title="Web Developer for Kouwenberg scheeps- en machinefabriek "
+			subtitle="From 2022 at Curio, Breda, Nederland"
+      desc="Company website that has information about the company, its partners and how to contact them with a contact form. Technologies: PHP, HTML, CSS, JavaScript"
+		/>
+	</div>
+
+	<div class="mb-5">
+		<div class="text-3xl w-full font-bold">Certifications</div>
+	</div>
+
+	<ul class="list-disc mx-6 mb-10 grid gap-2">
+		<!-- <li> Nothing Yet </li>-->
+	</ul>
+
+	<div class="mb-5">
+		<div class="text-3xl w-full font-bold">Skills</div>
+	</div>
+
+	<ul class="list-disc md:columns-5 columns-2 mx-6">
+		<li>Dutch (Native)</li>
+		<li>English</li>
+		<li>JavaScript</li>
+		<li>PHP</li>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>SASS</li>
+		<li>Astro</li>
+		<li>Wordpress</li>
+		<li>WEB Design</li>
+		<li>Office Suite</li>
+		<li>Git</li>
+		<li>Node.js</li>
+		<li>Python</li>
+		<li>MySQL</li>
+		<li>MongoDB</li>
+		<li>Electron</li>
+		<li>NGINX</li>
+	</ul>
+</BaseLayout>
