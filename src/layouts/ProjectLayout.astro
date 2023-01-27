@@ -10,11 +10,13 @@ export interface Props {
     updatedDate?: string;
     heroImage?: string;
     repoUrl?: string;
+    projectUrl?: string;
+    featured?: boolean;
   };
 }
 
 const {
-  content: { title, description, pubDate, updatedDate, heroImage, repoUrl }
+  content: { title, description, pubDate, updatedDate, heroImage, repoUrl, projectUrl, featured },
 } = Astro.props;
 ---
 

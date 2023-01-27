@@ -1,6 +1,6 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import HorizontalShopItem from "../../components/HorizontalShopItem.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import HorizontalShopItem from "@components/HorizontalShopItem.astro";
 
 export async function getStaticPaths({ paginate }) {
   const posts = (await Astro.glob("./*.{md,mdx}")).sort(
