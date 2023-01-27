@@ -8,7 +8,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-modern-personal-website.netlify.app',
+  site: 'https://koenv.dev/',
   integrations: [mdx(), sitemap(), tailwind()],
   // output: "server",
   // adapter: vercel()
